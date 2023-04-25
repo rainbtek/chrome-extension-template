@@ -1,0 +1,35 @@
+{
+    "name": "My Extension",
+    "description": "My Extension",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "icons": {
+      "16": "icon128.png",
+      "32": "icon128.png",
+      "48": "icon128.png",
+      "128": "icon128.png"
+    },
+    "background": {
+      "service_worker": "./background.js"
+    },
+    "action": {
+      "default_popup": "./popup.html",
+      "default_icon": {
+        "16": "icon128.png",
+        "32": "icon128.png",
+        "48": "icon128.png",
+        "128": "icon128.png"
+      }
+    },
+    "options_page": "./options.html",
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "storage",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://www.example.com/*",
+      "https://example.com/*"
+    ]
+  }

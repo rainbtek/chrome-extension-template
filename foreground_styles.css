@@ -1,0 +1,52 @@
+.ce_main {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: 999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    background-color: red;
+}
+
+#ce_name {
+    font-size: 70px;
+}
+
+#ce_button {
+    padding: 60px 30px;
+    border-radius: 5px;
+
+    font-size: 30px;
+
+    background-color: black;
+
+    cursor: pointer;
+}
+
+html body {
+    background-color: black;
+}
+
+.forums_layout {
+    background-color: #323336;
+}
+
+.row-item {
+    background-color: #323336;
+    color: #8ab4f8;
+}
+
+.row-item a {
+    color: #8ab4f8;
+}
+
+.content {
+    color: #8ab4f8;
+}
